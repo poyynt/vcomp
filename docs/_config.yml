@@ -1,0 +1,7 @@
+plugins:
+    - jekyll-feed
+    - jekyll-sitemap
+    
+
+theme: jekyll-theme-hacker
+show_downloads: true

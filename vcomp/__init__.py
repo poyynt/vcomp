@@ -1,0 +1,5 @@
+name="vcomp"
+author="Parsa Torbati"
+author_email="parsa@programmer.net"
+url="https://github.com/poyynt/vcomp"
+version="0.1.0"
