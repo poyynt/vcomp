@@ -2,10 +2,10 @@
 
 ## An video compressor with bitrate and size selection.  
 
-[Github](https://github.com/poyynt/vcomp)  
-[PyPI](https://pypi.org/project/vcomp)
-[Releases]({{ site.github.releases_url }})
-[RSS](feed.xml)
+[Github](https://github.com/poyynt/vcomp)    
+[PyPI](https://pypi.org/project/vcomp)  
+[Releases]({{ site.github.releases_url }})  
+[RSS](feed.xml)  
 
 
 ### To install:
