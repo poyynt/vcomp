@@ -1,6 +1,6 @@
 # VComp    
 
-## An video compressor with bitrate and size selection.  
+## A video compressor with bitrate and size selection.  
 
 [Github](https://github.com/poyynt/vcomp)    
 [PyPI](https://pypi.org/project/vcomp)  
