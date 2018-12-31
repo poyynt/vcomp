@@ -1,45 +1,30 @@
-# GIC 
+# VComp    
 
-## An image compressor that compresses all images in the working directory.  
+## An video compressor with bitrate and size selection.  
 
-[Github](https://github.com/poyynt/gic)  
-[PyPI](https://pypi.org/project/gic)
+[Github](https://github.com/poyynt/vcomp)  
+[PyPI](https://pypi.org/project/vcomp)
 
 ### To execute:  
 #### In Linux|Unix|macOS:  
 ##### GUI:  
-Run `gic` in a shell.  
-##### CLI:  
-Run `gic-cli` in a shell.  
+Run `vcomp` in a shell.  
 #### In Windows:
 ##### Method 1:
-In a `cmd` window, change working directory to your desired folder and run `gic`(GUI) or `gic-cli`(CLI).  
+In a `cmd` window, execute `vcomp`.  
 ##### Method 2:
-Copy the file `gic.exe`(GUI) or `gic-cli.exe`(CLI) from `pythoninstallation\Scripts\` to your desired folder and double-click it.  
+Copy the file `vcomp.exe` from `pythoninstallation\Scripts\` to your desired folder and double-click it.  
 #### To use in your python code:  
 A code that the **user** sets the compression level.
 ###### GUI
 ```python
-import gic.main
-#change the working directory to whatever you want
-gic.main.run()
-```
-###### CLI
-```python
-import gic.cli
-#change the working directory to whatever you want
-gic.cli.run()
+import vcomp.main
+vcomp.main.run()
 ```
 #### To be quiet:  
 A code that **you** set the compression level.
-Set quality to 1|2|3|4 or a percentage. Lower percentage is lower size and lower quality. 1 Means best, 4 means worst.
+Set size to your desired height and bitrate to your desired bitrate, and f to the path of the file.
 ```python
-import gic.compress
-gic.compress.compress(quality)
+import vcomp.compress
+vcomp.compress.compress(size,bitrate,f)
 ```
-You can also pass another arguement to compress images in that directory.
-```python
-import gic.compress
-gic.compress.compress(quality, dir)
-```
-

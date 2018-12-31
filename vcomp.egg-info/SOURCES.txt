@@ -1,0 +1,11 @@
+README.md
+setup.py
+vcomp/__init__.py
+vcomp/compress.py
+vcomp/main.py
+vcomp.egg-info/PKG-INFO
+vcomp.egg-info/SOURCES.txt
+vcomp.egg-info/dependency_links.txt
+vcomp.egg-info/entry_points.txt
+vcomp.egg-info/requires.txt
+vcomp.egg-info/top_level.txt

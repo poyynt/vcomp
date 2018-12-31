@@ -1,0 +1,3 @@
+[console_scripts]
+vcomp = vcomp.main:run
+

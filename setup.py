@@ -1,28 +1,27 @@
 import setuptools
-import gic
+import vcomp
 
 with open("README.md") as f:
     long_desc = f.read()
 
 
 setuptools.setup(
-        name="gic",
-        version=gic.version,
-        description="Group Image Compressor (GIC)",
+        name="vcomp",
+        version=vcomp.version,
+        description="Video Compressor (VComp)",
         long_description=long_desc,
         long_description_content_type="text/markdown",
-        url="https://github.com/poyynt/gic/",
+        url="https://github.com/poyynt/vcomp/",
         author="Parsa Torbati",
         author_email="parsa@programmer.net",
         packages=setuptools.find_packages(),
         python_requires=">=3.2",
         install_requires=[
-            "opencv-python",
+            "moviepy",
             ],
         entry_points={
             "console_scripts": [
-                "gic=gic.main:run",
-                "gic-cli=gic.cli:run",
+                "vcomp=vcomp.main:run",
                 ],
             },
         classifiers=[
